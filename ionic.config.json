@@ -1,0 +1,7 @@
+{
+  "name": "Gedadito",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Gedadito",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
