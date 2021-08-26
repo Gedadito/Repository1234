@@ -1,0 +1,194 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="9">
+          <img src="../../assets/feed/logo insta.jpg" alt="Logo Instagram" height="23px">
+
+        </ion-col>
+        <ion-col size="3" class="header-icons">
+          <ion-icon name="add-circle-outline" class="item"></ion-icon>
+          <ion-icon name="heart"></ion-icon>
+          <ion-icon name="mail-unread" class="item"></ion-icon>
+        </ion-col>
+        </ion-row>
+      </ion-grid>
+    
+      
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      
+    </ion-toolbar>
+  </ion-header>
+  <ion-grid>
+
+    <!---stories--->
+    <ion-row>
+      <ion-slides [options]="slideOpts" scrollbar="true" class="slider-stories">
+        <ion-slide >
+          <img src="../../assets/feed/m.png" alt="">
+        </ion-slide>
+        <ion-slide >
+          <img src="../../assets/feed/g23.png" alt="">
+        </ion-slide>
+        <ion-slide >
+          <img src="../../assets/feed/h3.png" alt="">
+        </ion-slide>
+        <ion-slide >
+          <img src="../../assets/feed/h4.png" alt="">
+        </ion-slide>
+        <ion-slide >
+          <img src="../../assets/feed/h2.png" alt="">
+        </ion-slide>
+        <ion-slide >
+          <img src="../../assets/feed/h1.png" alt="">
+        </ion-slide>
+        <ion-slide >
+          <img src="../../assets/feed/m.png" alt="">
+        </ion-slide>
+        <ion-slide >
+          <img src="../../assets/feed/g23.png" alt="">
+        </ion-slide>
+        <ion-slide >
+          <img src="../../assets/feed/h3.png" alt="">
+        </ion-slide>
+        <ion-slide >
+          <img src="../../assets/feed/h4.png" alt="">
+        </ion-slide>
+        <ion-slide >
+          <img src="../../assets/feed/h2.png" alt="">
+        </ion-slide>
+        <ion-slide >
+          <img src="../../assets/feed/h1.png" alt="">
+        </ion-slide>
+      </ion-slides>
+    </ion-row>
+
+
+
+
+
+
+
+    <!---posts--->
+    <ion-row>
+      
+    </ion-row>
+
+    <ion-row>
+      <ion-card class="card-post">
+        <ion-card-header>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="11">
+                <img src="../../assets/imagenes/goku1.jpg" alt="foto de perfil" width="20px">
+                <ion-text>
+                  <strong>Goku</strong>
+                </ion-text>
+              </ion-col>
+              
+              <ion-col size="1">
+                <ion-icon name="menu"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+         
+        </ion-card-header>
+        <ion-card-content>
+          <img src="../../assets/imagenes/g9.jpg" alt="g9" width="100%">
+        </ion-card-content>
+        <div class="card-footer">
+          <div class="options">
+            <ion-grid>
+              <ion-row>
+                <ion-col size="11">
+                  <ion-icon name="heart" class="item-post"></ion-icon>
+                  <ion-icon name="chatbubbles" class="item_post"></ion-icon>
+                  <ion-icon name="share" class="item-post"></ion-icon>
+
+                </ion-col>
+              <ion-col size="1">
+              <ion-icon name="bookmark"></ion-icon>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </div>
+          <div class="comment">
+            <img src="../../assets/imagenes/goku1.jpg" alt="perfil" width="20px">
+            <ion-input placeholder="Escribir un comentario"></ion-input>
+          </div>
+
+        </div>
+      </ion-card>
+    </ion-row>
+
+    <ion-row>
+      <ion-card class="card-post">
+        <ion-card-header>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="11">
+                <img src="../../assets/imagenes/goku1.jpg" alt="foto de perfil" width="20px">
+                <ion-text>
+                  <strong>Goku</strong>
+                </ion-text>
+              </ion-col>
+              
+              <ion-col size="1">
+                <ion-icon name="more"></ion-icon>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+         
+        </ion-card-header>
+        <ion-card-content>
+          <ion-slides [options]="slidePostOptions" pager="true">
+            <ion-slide>
+              <img src="../../assets/imagenes/g9.jpg" alt="g9" width="100%">
+            </ion-slide>
+            <ion-slide>
+              <img src="../../assets/imagenes/g8.jpeg" alt="g9" width="100%">
+            </ion-slide>
+            <ion-slide>
+              <img src="../../assets/imagenes/g7.jpg" alt="g9" width="100%">
+            </ion-slide>
+          </ion-slides>
+        </ion-card-content>
+        <div class="footer">
+          <div class="options">
+            <ion-grid>
+              <ion-row>
+                <ion-col size="11">
+                  <ion-icon name="heart" class="item-post"></ion-icon>
+                  <ion-icon name="chatbubbles" class="item_post"></ion-icon>
+                  <ion-icon name="share" class="item-post"></ion-icon>
+
+                </ion-col>
+              <ion-col size="1">
+              <ion-icon name="bookmark"></ion-icon>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </div>
+          <div class="comment">
+            <img src="../../assets/imagenes/goku1.jpg" alt="perfil" width="20px">
+            <ion-input placeholder="Escribir un comentario"></ion-input>
+          </div>
+
+        </div>
+      </ion-card>
+    </ion-row>
+  </ion-grid>
+
+
+
+  <app-explore-container name="Tab 1 page"></app-explore-container>
+</ion-content>
+
+

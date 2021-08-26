@@ -1,0 +1,56 @@
+.card-post {
+    width: 100%;
+    margin: 0%;
+}
+
+ion-card-footer{
+    display: block;
+    padding: 0 16px 16px 16px;
+}
+
+.header-icons{
+    text-align: right;
+    .item{
+        width: 48px;
+        //margin-right: 10px;
+    }
+}
+
+
+
+ion-label{
+    margin: 0%;
+}
+
+ion-item{
+    display: inline-block;
+}
+
+::slotted(ion-label){
+    margin: 0%;
+}
+
+.item_post{
+    img {
+        width: 30px;
+    }
+}
+
+ion-text{
+    display: inline-block;
+    color: black;
+    margin: 0 10px;
+}
+
+ion-input {
+    display: inline-block;
+    width: auto;
+}
+
+.slider-stories{
+    height: 120px;
+    ion-slide{
+        width: 100px !important;
+    }
+
+}

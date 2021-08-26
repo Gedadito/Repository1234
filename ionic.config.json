@@ -1,0 +1,7 @@
+{
+  "name": "P2LabAplicaciones",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
